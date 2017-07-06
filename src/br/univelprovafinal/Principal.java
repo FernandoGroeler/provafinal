@@ -37,10 +37,10 @@ public class Principal {
 		Integer raAluno1 = 161400;
 		Integer raAluno2 = 161022;
 		
-		System.out.println("Fernando");
+		System.out.println("Fernando - " + raAluno1);
 		execute(raAluno1);
 		System.out.println("====================================");
-		System.out.println("Edson");
+		System.out.println("Edson - " + raAluno2);
 		execute(raAluno2);
 		
 	}
