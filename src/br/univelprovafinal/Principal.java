@@ -1,9 +1,7 @@
 package br.univelprovafinal;
 
 public class Principal {
-	public static void main(String[] args) {
-		Integer ra = 161400;
-		
+	public static void execute(Integer ra) {
 		Ex01 ex01 = new Ex01();
 		ex01.execute(ra);
 		
@@ -34,5 +32,16 @@ public class Principal {
 		Ex10 ex10 = new Ex10();
 		ex10.execute(ra);		
 	}
-
+	
+	public static void main(String[] args) {
+		Integer raAluno1 = 161400;
+		Integer raAluno2 = 161022;
+		
+		System.out.println("Fernando");
+		execute(raAluno1);
+		System.out.println("====================================");
+		System.out.println("Edson");
+		execute(raAluno2);
+		
+	}
 }
